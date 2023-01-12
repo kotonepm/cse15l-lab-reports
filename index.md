@@ -1,8 +1,4 @@
-# Hello, world! Welcome to CSE 15L
-
-**Getting Started**
-
----
+# Hello, World! Welcome to CSE 15L
 
 **Installing VScode**
 
