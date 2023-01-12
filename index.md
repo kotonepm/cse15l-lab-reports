@@ -5,4 +5,4 @@ Hello, world!
 Horizontal rule:
 
 ---
-![Image]()
+![Image](https://github.com/kotonepm/cse15l-lab-reports/blob/main/Screenshot%20(27).png)
