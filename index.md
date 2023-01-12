@@ -1,8 +1,5 @@
-Hello, world!
-*Italic*
-**Bold**
-# Heading 1
+**Hello, world! Welcome to CSE 15L**
+# Getting Started
 Horizontal rule:
 
 ---
-![Image](https://github.com/kotonepm/cse15l-lab-reports/blob/main/Screenshot%20(27).png)
