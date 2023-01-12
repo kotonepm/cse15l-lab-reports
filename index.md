@@ -5,4 +5,4 @@ Hello, world!
 Horizontal rule:
 
 ---
-![Image]("C:\Users\Nicho\OneDrive\Pictures\Screenshots\Screenshot (27).png")
+![Image]()
