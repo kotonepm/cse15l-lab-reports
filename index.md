@@ -5,3 +5,4 @@ Hello, world!
 Horizontal rule:
 
 ---
+![Image](http://url/a.png)	
