@@ -1,10 +1,12 @@
 # Hello, World! Welcome to CSE 15L
 
 **Installing VScode**
+![Screenshot (25)](https://user-images.githubusercontent.com/103862450/212399123-96191e29-dcbe-4543-a6d8-7ae23d103ba8.png)
 
 ---
 
 **Remotely Connecting**
+![Screenshot (27)](https://user-images.githubusercontent.com/103862450/212399191-4a113800-0ac5-4059-80a7-423fd9046a96.png)
 
 ---
 
