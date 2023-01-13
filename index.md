@@ -1,9 +1,9 @@
 # Hello, World! Welcome to CSE 15L
 
 **Installing VScode**
-1.
-2. 
-3. 
+1. One
+2. Two
+3. Three
 ![Screenshot (25)](https://user-images.githubusercontent.com/103862450/212399123-96191e29-dcbe-4543-a6d8-7ae23d103ba8.png)
 
 ---
