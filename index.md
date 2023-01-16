@@ -23,13 +23,13 @@
 **Trying Some Commands**
 1. Now that you have successfully logged on the server, try running some commands both on your terminal after you log in, and before entering your ssh
 2. Try running each of this commands in the terminal and see what they do:
-*List cd ~
-*cd
-*ls -lat
-*ls -a
-*ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-*cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 3. You now have VScode installed and a basic understanding of running commands in the terminal! To log off, enter one of the following commands:
 * Ctrl-D
 * Run the command **exit**
