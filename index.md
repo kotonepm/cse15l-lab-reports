@@ -1,7 +1,7 @@
 # Hello, World! Welcome to CSE 15L
 
 **Installing VScode**
-1. One
+1. Go to the Visual Studio Code website [Link](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. 
 2. Two
 3. Three
 4. Four
