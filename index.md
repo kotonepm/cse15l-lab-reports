@@ -1,13 +1,11 @@
 # Hello, World! Welcome to CSE 15L
 
 **Installing VScode**
-1. Go to the Visual Studio Code website [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. 
-2. Two
-3. Three
-4. Four
-5. Five
+1. Go to the Visual Studio Code website [(https://code.visualstudio.com/)](https://code.visualstudio.com/)
+2. At the top right, you will see a button where you can download VScode. Make sure to select the correct version that you need.
+3. Follow the instructions to install VScode. 
 
-*Your screen should look like this when VScode is installed:*
+*Your screen should look like this when VScode is succeesfully installed:*
 ![Screenshot (25)](https://user-images.githubusercontent.com/103862450/212399123-96191e29-dcbe-4543-a6d8-7ae23d103ba8.png)
 
 ---
