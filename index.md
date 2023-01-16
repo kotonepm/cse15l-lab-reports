@@ -30,10 +30,10 @@
 * ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-3. You now have VScode installed and a basic understanding of running commands in the terminal! To log off, enter one of the following commands:
-* Ctrl-D
-* Run the command **exit**
-
 
 *These are some example of commands that have been run on the terminal:*
 ![Screenshot (28)](https://user-images.githubusercontent.com/103862450/212399055-0ef7c863-f0c0-485b-b78d-a8d215e1dd27.png)
+ 
+3. You now have VScode installed and a basic understanding of running commands in the terminal! To log off, enter one of the following commands:
+* Ctrl-D
+* Run the command **exit**
