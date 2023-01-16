@@ -23,7 +23,7 @@
 **Trying Some Commands**
 1. Now that you have successfully logged on the server, try running some commands both on your terminal after you log in, and before entering your ssh
 2. Try running each of this commands in the terminal and see what they do:
-*cd ~
+*List cd ~
 *cd
 *ls -lat
 *ls -a
