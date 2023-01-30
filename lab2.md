@@ -4,8 +4,7 @@
 
 **Here is my code for StringServer:**
 
-![Screenshot (36)](https://user-images.githubusercontent.com/103862450/215586127-2b15ff73-86f0-427d-a8a0-979933020e16.png)
-
+![Screenshot (38)](https://user-images.githubusercontent.com/103862450/215586307-cb148d5c-83db-4fdc-94f4-9165636043a0.png)
 
 **After adding "/add-message?s=Hello" to the end of the localhost this will show up:**
 
