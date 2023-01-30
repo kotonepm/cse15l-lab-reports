@@ -1,1 +1,1 @@
-This is lab 2
+# Lab Report 2
