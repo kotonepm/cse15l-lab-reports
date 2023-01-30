@@ -34,6 +34,8 @@
 *These are some example of commands that have been run on the terminal:*
 ![Screenshot (28)](https://user-images.githubusercontent.com/103862450/212399055-0ef7c863-f0c0-485b-b78d-a8d215e1dd27.png)
  
+ **Here's what some of these commands do:**
+  
 3. You now have VScode installed and a basic understanding of running commands in the terminal! To log off, enter one of the following commands:
 * Ctrl-D
 * Run the command **exit**
