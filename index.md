@@ -35,9 +35,9 @@
 ![Screenshot (28)](https://user-images.githubusercontent.com/103862450/212399055-0ef7c863-f0c0-485b-b78d-a8d215e1dd27.png)
  
  **Here's what some of these commands do:**
- *`cd` - "Change Directory" Used to switch the current working directory to the givene path
- *`ls` - "List" Used to list the files and folders of the given path
- *`cat` - "Concatenate" Used to print the contents of one or more files given by the paths 
+ * `cd` - "Change Directory" Used to switch the current working directory to the givene path
+ * `ls` - "List" Used to list the files and folders of the given path
+ * `cat` - "Concatenate" Used to print the contents of one or more files given by the paths 
   
 3. You now have VScode installed and a basic understanding of running commands in the terminal! To log off, enter one of the following commands:
 * Ctrl-D
