@@ -8,11 +8,6 @@
 
 **After adding "/add-message?s=Hello" to the end of the localhost this will show up:**
 
-
-
-
-
-
 ![Screenshot (37)](https://user-images.githubusercontent.com/103862450/215585355-b991c462-e6f9-46e3-a1b8-8ceb63142c40.png)
 
 //explain things here
@@ -28,3 +23,13 @@
 
 ## Part 2
 
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+
+    int[] input2 = { 1, 2, 3 };
+    assertArrayEquals(new int[]{ 3, 2, 1 }, ArrayExamples.reversed(input2));
+  }
+```
