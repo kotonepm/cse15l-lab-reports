@@ -77,4 +77,4 @@ static int[] reversed(int[] arr) {
 
 ## Part 3
 
-** Something I learned from lab in week 2 or 3 that you didn’t know before**
+**Something I learned from lab in week 2 or 3 that you didn’t know before**
