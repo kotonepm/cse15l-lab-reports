@@ -71,7 +71,7 @@ static int[] reversed(int[] arr) {
 ```
 
 **Why This Fix Works**
-This fix works because the left-hand side and right-hand side assignments are swapped. This is an error because we are essentially assigning arr, the array with values, to the values of newArray, which is an empty list. By assigning the values in arr to newArray, the values are set to the values of an empty list {0, 0, 0}. Furthermore the original array (arr) is returned when we want a newArray. To fix this issue, the first thing is to assign the values of the original array (arr) to the empty array, newArray. This way we set the values of the original arr to the empty array. Lastly, we want to return the empty array with the updated values, so we return newArray. 
+* This fix works because the left-hand side and right-hand side assignments are swapped. This is an error because we are essentially assigning arr, the array with values, to the values of newArray, which is an empty list. By assigning the values in arr to newArray, the values are set to the values of an empty list {0, 0, 0}. Furthermore the original array (arr) is returned when we want a newArray. To fix this issue, the first thing is to assign the values of the original array (arr) to the empty array, newArray. This way we set the values of the original arr to the empty array. Lastly, we want to return the empty array with the updated values, so we return newArray. 
 
 ---
 
