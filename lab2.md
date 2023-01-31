@@ -59,7 +59,7 @@ static int[] reversed(int[] arr) {
     return arr;
 ```
 
-**Fixed Code***
+**Fixed Code**
 
 ```
 static int[] reversed(int[] arr) {
