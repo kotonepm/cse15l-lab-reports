@@ -17,8 +17,28 @@ When printing "Hello" on the server, the handleRequest method is called. Inside 
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/103862450/215585494-a0eebe34-b4cc-4309-81f9-b4f9e1cee415.png)
 
-//explain things here
+Printing the message "How are you" in the Server follows exactly the same steps at printing "Hello" on the server. The method handleRequest is still called, which has a conditional statement that checks the path of the url. 
 
 ---
 
 ## Part 2
+
+**A failure-inducing input for the buggy program**
+
+```
+@Test
+  public void testReversed() {
+    int[] input2 = { 1, 2, 3 };
+    assertArrayEquals(new int[]{ 3, 2, 1 }, ArrayExamples.reversed(input2));
+  }
+```
+
+**An input that doesn’t induce a failure**
+
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
