@@ -42,3 +42,33 @@ Printing the message "How are you" in the Server follows exactly the same steps 
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+
+**The symptom, as the output of running the tests**
+
+![Screenshot (40)](https://user-images.githubusercontent.com/103862450/215659403-bdebc76f-32e0-4f3a-ad51-5692e4e97f08.png)
+
+
+**Flawed Code**
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+```
+
+**Fixed Code***
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i]; //left-hand side and right-hand side assignments are swapped
+    }
+    return newArray; //must return a new array and not the original array
+  }
+```
+
+**Why This Fix Works**
