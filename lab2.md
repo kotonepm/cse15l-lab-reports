@@ -47,7 +47,6 @@ Printing the message "How are you" in the Server follows exactly the same steps 
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/103862450/215659403-bdebc76f-32e0-4f3a-ad51-5692e4e97f08.png)
 
-
 **Flawed Code**
 
 ```
@@ -65,16 +64,18 @@ static int[] reversed(int[] arr) {
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      newArray[arr.length - i - 1] = arr[i]; //left-hand side and right-hand side assignments are swapped
+      newArray[arr.length - i - 1] = arr[i];
     }
-    return newArray; //must return a new array and not the original array
+    return newArray;
   }
 ```
 
 **Why This Fix Works**
+This fix works because the left-hand side and right-hand side assignments are swapped. This is an error because we are essentially assigning arr, the array with values, to the values of newArray, which is an empty list. By assigning the values in arr to newArray, the values are set to the values of an empty list {0, 0, 0}. Furthermore the original array (arr) is returned when we want a newArray. To fix this issue, the first thing is to assign the values of the original array (arr) to the empty array, newArray. This way we set the values of the original arr to the empty array. Lastly, we want to return the empty array with the updated values, so we return newArray. 
 
-
+---
 
 ## Part 3
 
 **Something I learned from lab in week 2 or 3 that you didn’t know before**
+
