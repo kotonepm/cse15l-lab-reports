@@ -78,4 +78,5 @@ static int[] reversed(int[] arr) {
 ## Part 3
 
 **Something I learned from lab in week 2 or 3 that you didn’t know before**
+* Week 2's activity was very interesting because it opened my eyes to how urls work and how a web server works. Learning about how urls just check for certain numbers and different elements in a url by using if-else conditional statements made me realize that basic java concepts are used to run and idea that is seems complicated. 
 
