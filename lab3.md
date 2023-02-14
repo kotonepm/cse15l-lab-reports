@@ -25,11 +25,11 @@ Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 Input: ```find non-fiction/ *.txt```
 <br>
 Output:
-<br>```written_2/non-fiction/OUP/Abernathy/ch1.txt```
-<br>```written_2/non-fiction/OUP/Berk/ch1.txt```
-<br>```written_2/non-fiction/OUP/Fletcher/ch1.txt```
-<br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
-<br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt```
+<br>```non-fiction/```
+<br>```non-fiction/OUP```
+<br>```non-fiction/OUP/Abernathy```
+<br>```non-fiction/OUP/Abernathy/ch1.txt```
+<br>```non-fiction/OUP/Abernathy/ch14.txt```
 <br>
 <br>
 Input: ```find travel_guides/ *.txt```
