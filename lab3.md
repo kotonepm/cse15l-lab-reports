@@ -60,9 +60,9 @@ Output: ``` ```
 
 **Use 4:** Search for empty files and directories.
 <br>
-Input: ``` ```
+Input: ```find non-fiction  -empty```
 <br>
-Output: ``` ```
+Output: ```find travel_guides -empty```
 <br>
 <br>
 Input: ``` ```
