@@ -12,13 +12,13 @@ Output:
 <br>```written_2/non-fiction/OUP/Fletcher/ch1.txt```
 <br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
-<br>hi
+<br>
 <br>
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>hi
+<br>**Explanation:**
 
 **Use 2:** Search a file with pattern.
 <br>
