@@ -4,9 +4,14 @@
 
 **Use 1:** Search a file with specific name.
 <br>
-Input: ``` ```
+Input: ```find written_2/ -name ch1.txt```
 <br>
-Output: ``` ```
+Output: 
+```written_2/non-fiction/OUP/Abernathy/ch1.txt```
+```written_2/non-fiction/OUP/Berk/ch1.txt```
+```written_2/non-fiction/OUP/Fletcher/ch1.txt```
+```written_2/non-fiction/OUP/Kauffman/ch1.txt```
+```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
 <br>hi
 <br>
 <br>
