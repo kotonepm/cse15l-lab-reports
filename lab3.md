@@ -14,9 +14,9 @@ Output:
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
 <br>
 <br>
-Input: ``` ```
+Input: ```find written_2/ -name HandRHawaii.txt ```
 <br>
-Output: ``` ```
+Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
 <br>**Explanation:**
 
