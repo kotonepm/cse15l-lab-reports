@@ -7,14 +7,42 @@
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>
+<br>hi
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
+<br>hi
 
 **Use 2:** Search a file with pattern.
+<br>
+Input: ``` ```
+<br>
+Output: ``` ```
+<br>
+<br>
+Input: ``` ```
+<br>
+Output: ``` 
 
 **Use 3:** How to find and delete a file with confirmation.
+<br>
+Input: ``` ```
+<br>
+Output: ``` ```
+<br>
+<br>
+Input: ``` ```
+<br>
+Output: ``` 
 
 **Use 4:** Search for empty files and directories.
+<br>
+Input: ``` ```
+<br>
+Output: ``` ```
+<br>
+<br>
+Input: ``` ```
+<br>
+Output: ``` 
