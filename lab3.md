@@ -47,12 +47,12 @@ Output:
 
 **Use 3:** How to find and delete a file with confirmation.
 <br>
-Input: ``` ```
+Input: ```find non-fiction  -name ch1.txt -exec rm -i {} \;```
 <br>
-Output: ``` ```
+Output: ```rm: remove regular file 'non-fiction/OUP/Abernathy/ch1.txt'?```
 <br>
 <br>
-Input: ``` ```
+Input: ```find travel_guides  -name HandRHawii.txt -exec rm -i {} \;```
 <br>
 Output: ``` ```
 <br>
