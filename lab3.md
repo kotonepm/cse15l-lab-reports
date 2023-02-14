@@ -18,7 +18,7 @@ Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
 Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
-<br>**Explanation:**
+<br>**Explanation:** By using the find command in bash, we can find files or all files that have the same name. For example, in the first input and output, I wanted to find all files that had "ch1.txt" , which returned multiple file, and in the second input and output, because only one file had "HandRHawaii.txt" in it only one file returned. 
 
 **Use 2:** Search a file with pattern.
 <br>
