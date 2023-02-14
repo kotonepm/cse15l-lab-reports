@@ -20,30 +20,36 @@ Output: ``` ```
 Input: ``` ```
 <br>
 Output: ``` ```
+<br>hi
 <br>
 <br>
 Input: ``` ```
 <br>
-Output: ``` 
+Output: ``` ```
+<br>hi
 
 **Use 3:** How to find and delete a file with confirmation.
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
+<br>hi
 <br>
 <br>
 Input: ``` ```
 <br>
-Output: ``` 
+Output: ``` ```
+<br>hi
 
 **Use 4:** Search for empty files and directories.
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
+<br>hi
 <br>
 <br>
 Input: ``` ```
 <br>
-Output: ``` 
+Output: ``` ```
+<br>hi
