@@ -14,10 +14,10 @@ Output:
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
 <br>
 <br>
-<br>
 Input: ``` ```
 <br>
 Output: ``` ```
+<br>
 <br>**Explanation:**
 
 **Use 2:** Search a file with pattern.
