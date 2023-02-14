@@ -14,7 +14,7 @@ Output:
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
 <br>
 <br>
-Input: ```find written_2/ -name HandRHawaii.txt ```
+Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
 Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
@@ -30,7 +30,6 @@ Output:
 <br>```written_2/non-fiction/OUP/Fletcher/ch1.txt```
 <br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt```
-
 <br>
 <br>
 Input: ```find travel_guides/ *.txt```
