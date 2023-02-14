@@ -24,12 +24,32 @@ Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
 Input: ```find non-fiction/ *.txt```
 <br>
-Output: ``` ```
+Output: 
+```non-fiction/```
+```non-fiction/OUP
+```non-fiction/OUP/Abernathy```
+```non-fiction/OUP/Abernathy/ch1.txt```
+```non-fiction/OUP/Abernathy/ch14.txt```
+```non-fiction/OUP/Abernathy/ch15.txt```
+```non-fiction/OUP/Abernathy/ch2.txt```
+```non-fiction/OUP/Abernathy/ch3.txt```
+```non-fiction/OUP/Abernathy/ch6.txt```
+```non-fiction/OUP/Abernathy/ch7.txt```
+```non-fiction/OUP/Abernathy/ch8.txt```
+```non-fiction/OUP/Abernathy/ch9.txt```
+```...```
 <br>
 <br>
 Input: ```find travel_guides/ *.txt```
 <br>
-Output: ``` ```
+Output: 
+```travel_guides/```
+```travel_guides/berlitz1
+```travel_guides/berlitz1/HandRHawaii.txt```
+```travel_guides/berlitz1/HandRHongKong.txt```
+```travel_guides/berlitz1/HandRIbiza.txt```
+```travel_guides/berlitz1/HandRIsrael.txt```
+```...```
 <br>
 <br>**Explanation:**
 
