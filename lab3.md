@@ -18,7 +18,7 @@ Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
 Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
-<br>**Explanation:** By using the find command in bash, we can find files or all files that have the same name. For example, in the first input and output, I wanted to find all files that had "ch1.txt" , which returned multiple file, and in the second input and output, because only one file had "HandRHawaii.txt" in it only one file returned. 
+<br>**Explanation:** By adding a file name after the find command in bash, we can find files or all files that have the same name. For example, in the first input and output, I wanted to find all files that had "ch1.txt" , which returned multiple file, and in the second input and output, because only one file had "HandRHawaii.txt" in it only one file returned. 
 
 **Use 2:** Search a file with pattern.
 <br>
@@ -43,7 +43,7 @@ Output:
 <br>```travel_guides/berlitz1/HandRIbiza.txt```
 <br>```(more code below)```
 <br>
-<br>**Explanation:** By using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction and travel_guides so the terminal return every single file that had ".txt" at the end.
+<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction and travel_guides so the terminal return every single file that had ".txt" at the end.
 
 **Use 3:** How to find and delete a file with confirmation.
 <br>
@@ -56,7 +56,7 @@ Input: ```find travel_guides  -name HandRHawii.txt -exec rm -i {} \;```
 <br>
 Output: ``` ```
 <br>
-<br>**Explanation:**
+<br>**Explanation:** By adding a "-exec rm -i {} \;" after using the find command, we can delete files in a directory. For the first example, because there were more that one file that conatined "ch1.txt" at the end, it returned a prompt that asked if the user wanted to delete the file, unlike the second example which only had one unique file that ended with "HandRHawii.txt". 
 
 **Use 4:** Search for empty files and directories.
 <br>
@@ -69,4 +69,4 @@ Input: ``` ```
 <br>
 Output: ``` ```
 <br>
-<br>**Explanation:**
+<br>**Explanation:** By adding a "-empty" after using the find command, we can search for empty files and directories. Because every directory that we search for had a file in it, the termainal returned nothing!
