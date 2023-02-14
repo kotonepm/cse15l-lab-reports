@@ -6,10 +6,12 @@
 <br>
 Input:
 ``` ```
+<br>
 Output:
 <br>
 Input:
 ``` ```
+<br>
 Output:
 
 **Use 2:** Search a file with pattern.
