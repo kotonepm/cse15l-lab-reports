@@ -4,15 +4,13 @@
 
 **Use 1:** Search a file with specific name.
 <br>
-Input:
-``` ```
+Input: ``` ```
 <br>
-Output:
+Output: ``` ```
 <br>
-Input:
-``` ```
+Input: ``` ```
 <br>
-Output:
+Output: ``` ```
 
 **Use 2:** Search a file with pattern.
 
