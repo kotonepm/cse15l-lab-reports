@@ -22,39 +22,39 @@ Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 
 **Use 2:** Search a file with pattern.
 <br>
-Input: ``` ```
+Input: ```find non-fiction/ *.txt```
 <br>
 Output: ``` ```
-<br>hi
 <br>
 <br>
-Input: ``` ```
+Input: ```find travel_guides/ *.txt```
 <br>
 Output: ``` ```
-<br>hi
+<br>
+<br>**Explanation:**
 
 **Use 3:** How to find and delete a file with confirmation.
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>hi
 <br>
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>hi
+<br>
+<br>**Explanation:**
 
 **Use 4:** Search for empty files and directories.
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>hi
 <br>
 <br>
 Input: ``` ```
 <br>
 Output: ``` ```
-<br>hi
+<br>
+<br>**Explanation:**
