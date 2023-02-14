@@ -1,6 +1,6 @@
 # Lab Report 2
 
-**About Find:** The find command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the ‘-exec’ other UNIX commands can be executed on files or folders found. 
+**About Find:** The find command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the ‘-exec’ other UNIX commands can be executed on files or folders found. [(https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 **Use 1:** Search a file with specific name.
 <br>
@@ -43,7 +43,7 @@ Output:
 <br>```travel_guides/berlitz1/HandRIbiza.txt```
 <br>```(more code below)```
 <br>
-<br>**Explanation:**
+<br>**Explanation:** By using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction and travel_guides so the terminal return every single file that had ".txt" at the end.
 
 **Use 3:** How to find and delete a file with confirmation.
 <br>
