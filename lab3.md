@@ -19,7 +19,7 @@ Input: ```find non-fiction/OUP/Berk/ch1.txt```
 Output: ```non-fiction/OUP/Berk/ch1.txt```
 <br>
 <br>**Explanation:** In this example, we are demonstrating that this file works for specfic file names. In this example we change the file name to a different file called ```Berk/ch1.txt``` and the termainal returned the specific file that we wanted. 
-
+<br>
 ---
 
 **Use 2:** Search a file with pattern.
