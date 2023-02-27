@@ -8,9 +8,8 @@
 <br>
 Input: ```find non-fiction/OUP/Berk/ch1.txt```
 <br>
-Output: 
+Output: ```non-fiction/OUP/Berk/ch1.txt```
 <br>
-<br>```non-fiction/OUP/Berk/ch1.txt```
 <br>
 <br>
 Input: ```find non-fiction/OUP/Abernathy/ch14.txt```
