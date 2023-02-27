@@ -58,12 +58,12 @@ Output: ``` ```
 
 **Use 4:** Search for empty files and directories.
 <br>
-Input: ```find non-fiction  -empty```
+Input: ```find non-fiction -empty```
 <br>
-Output: ```find travel_guides -empty```
+Output: ``` ```
 <br>
 <br>
-Input: ``` ```
+Input: ```find travel_guides -empty```
 <br>
 Output: ``` ```
 <br>
