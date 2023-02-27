@@ -6,19 +6,16 @@
 
 **Use 1:** Search a file with specific name.
 <br>
-Input: ```find written_2/ -name ch1.txt```
+Input: ```find non-fiction/OUP/Berk/ch1.txt```
 <br>
 Output: 
-<br>```written_2/non-fiction/OUP/Abernathy/ch1.txt```
-<br>```written_2/non-fiction/OUP/Berk/ch1.txt```
-<br>```written_2/non-fiction/OUP/Fletcher/ch1.txt```
-<br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
-<br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt ```
+<br>
+<br>```non-fiction/OUP/Berk/ch1.txt```
 <br>
 <br>
-Input: ```find written_2/ -name HandRHawaii.txt```
+Input: ```find non-fiction/OUP/Abernathy/ch14.txt```
 <br>
-Output: ```written_2/travel_guides/berlitz1/HandRHawaii.txt```
+Output: ```written_2/non-fiction/OUP/Abernathy/ch1.txt```
 <br>
 <br>**Explanation:** By adding a file name after the find command in bash, we can find files or all files that have the same name. For example, in the first input and output, I wanted to find all files that had "ch1.txt" , which returned multiple file, and in the second input and output, because only one file had "HandRHawaii.txt" in it only one file returned. 
 
