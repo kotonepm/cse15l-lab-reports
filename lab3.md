@@ -62,7 +62,7 @@ Input: ```find travel_guides  -name HandRHawii.txt -exec rm -i {} \;```
 <br>
 Output: ``` ```
 <br>
-<br>**Explanation:** By adding a "-exec rm -i {} \;" after using the find command, we can delete files in a directory. For the first example, because there were more that one file that conatined "ch1.txt" at the end, it returned a prompt that asked if the user wanted to delete the file, unlike the second example which only had one unique file that ended with "HandRHawii.txt". 
+<br>**Explanation:** By adding a ```-exec rm -i {} \;``` after using the find command, we can delete files in a directory. For the first example, because there were more that one file that conatined "ch1.txt" at the end, it returned a prompt that asked if the user wanted to delete the file, unlike the second example which only had one unique file that ended with "HandRHawii.txt". 
 
 ---
 
