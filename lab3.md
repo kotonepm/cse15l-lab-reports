@@ -50,7 +50,7 @@ Input: ```find non-fiction  -name ch1.txt -exec rm -i {} \;```
 Output: ```rm: remove regular file 'non-fiction/OUP/Abernathy/ch1.txt'?```
 <br>
 <br>
-Input: ```find travel_guides  -name HandRHawii.txt -exec rm -i {} \;```
+Input: ```find travel_guides -name HandRHawii.txt -exec rm -i {} \;```
 <br>
 Output: ``` ```
 <br>
