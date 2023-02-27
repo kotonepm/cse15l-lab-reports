@@ -22,26 +22,20 @@ Output: ```written_2/non-fiction/OUP/Abernathy/ch1.txt```
 
 **Use 2:** Search a file with pattern.
 <br>
-Input: ```find non-fiction/ *.txt```
+Input: ```find written_2/ -name ch1.txt```
 <br>
 Output:
-<br>```non-fiction/```
-<br>```non-fiction/OUP```
-<br>```non-fiction/OUP/Abernathy```
-<br>```non-fiction/OUP/Abernathy/ch1.txt```
-<br>```non-fiction/OUP/Abernathy/ch14.txt```
-<br>```(more code below)```
+<br>```written_2/non-fiction/OUP/Abernathy/ch1.txt```
+<br>```written_2/non-fiction/OUP/Berk/ch1.txt```
+<br>```written_2/non-fiction/OUP/Berk/ch1.txt```
+<br>```written_2/non-fiction/OUP/Fletcher/ch1.txt```
+<br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
+<br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt```
 <br>
 <br>
-Input: ```find travel_guides/ *.txt```
+Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
-Output:
-<br>```travel_guides/```
-<br>```travel_guides/berlitz1```
-<br>```travel_guides/berlitz1/HandRHawaii.txt```
-<br>```travel_guides/berlitz1/HandRHongKong.txt```
-<br>```travel_guides/berlitz1/HandRIbiza.txt```
-<br>```(more code below)```
+Output:```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
 <br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction and travel_guides so the terminal return every single file that had ".txt" at the end.
 
