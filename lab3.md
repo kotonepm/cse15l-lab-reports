@@ -14,6 +14,7 @@ Output: ```written_2/non-fiction/OUP/Abernathy/ch1.txt```
 <br>
 <br>**Explanation:** By adding the full name of the file after the find command in bash, we can find specific names that the user wants to find. This command is useful for user who know that exact file name and want to find the file right away.
 <br>
+<br>
 Input: ```find non-fiction/OUP/Berk/ch1.txt```
 <br>
 Output: ```non-fiction/OUP/Berk/ch1.txt```
