@@ -8,6 +8,8 @@ Because this was my second time logging on to my ieng6 account, the previous com
 
 5. Clone your fork of the repository from your Github account
 ![Screenshot (59)](https://user-images.githubusercontent.com/103862450/221759068-0e26bd1c-df40-4461-81de-6802d0f049ad.png)
+To clone a repository from github, we would first go on to the github page that we were given, and click on the fork button. After we fork the respository, there is a drop-down menu, we we click on the green code button. Make sure to copy the ssh link instead of the HTTPS link. After you click on the copy link button go back to the terminal and type is git clone and paste in the ssh link.
+<br> **Inputs** ```<up>``` ```<up>``` ```<ENTER>```
 
 6. Run the tests, demonstrating that they fail
 ![Screenshot (50)](https://user-images.githubusercontent.com/103862450/221758205-998fd6e9-4b72-4c47-8bc3-3950b321605c.png)
