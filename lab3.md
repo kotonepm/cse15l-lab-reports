@@ -35,12 +35,13 @@ Output:
 <br>```written_2/non-fiction/OUP/Kauffman/ch1.txt```
 <br>```written_2/non-fiction/OUP/Rybczynski/ch1.txt```
 <br>
+<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction.
 <br>
 Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
 Output:```written_2/travel_guides/berlitz1/HandRHawaii.txt```
 <br>
-<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction and travel_guides so the terminal return every single file that had ".txt" at the end.
+<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction.
 
 ---
 
