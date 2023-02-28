@@ -53,6 +53,8 @@ Input: ```find non-fiction  -name ch1.txt -exec rm -i {} \;```
 Output: ```rm: remove regular file 'non-fiction/OUP/Abernathy/ch1.txt'?```
 <br>
 <br>
+<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction.
+<br>
 Input: ```find travel_guides -name HandRHawii.txt -exec rm -i {} \;```
 <br>
 Output: ``` ```
@@ -66,6 +68,8 @@ Output: ``` ```
 Input: ```find non-fiction -empty```
 <br>
 Output: ``` ```
+<br>
+<br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction.
 <br>
 <br>
 Input: ```find travel_guides -empty```
