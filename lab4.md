@@ -14,7 +14,7 @@ To clone a repository from github, we would first go on to the github page that 
 6. Run the tests, demonstrating that they fail
 ![Screenshot (50)](https://user-images.githubusercontent.com/103862450/221758205-998fd6e9-4b72-4c47-8bc3-3950b321605c.png)
 By using the lab method, we can auto fill the file names to aviod any errors. We first need to compile the file to see if the tests ran correctly.
-<br> **Keys pressed** ```javac``` ```L <TAB>``` ```T<TAB>```
+<br> **Keys pressed** ```javac``` ```L <TAB>``` ```T <TAB>```
 
 7. Edit the code file to fix the failing test
 ![Screenshot (51)](https://user-images.githubusercontent.com/103862450/221757985-8fbd6a13-caad-48bd-b1a4-5f5b94795867.png)
