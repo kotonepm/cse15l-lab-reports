@@ -2,9 +2,10 @@
 
 ---
 Log into ieng6
+![Screenshot (48)](https://user-images.githubusercontent.com/103862450/221757789-e6656427-c1e0-426b-aa22-9b656413d7d2.png)
 
 <br>Clone your fork of the repository from your Github account
-![Screenshot (48)](https://user-images.githubusercontent.com/103862450/221757789-e6656427-c1e0-426b-aa22-9b656413d7d2.png)
+![Screenshot (59)](https://user-images.githubusercontent.com/103862450/221759068-0e26bd1c-df40-4461-81de-6802d0f049ad.png)
 
 <br>Run the tests, demonstrating that they fail
 ![Screenshot (50)](https://user-images.githubusercontent.com/103862450/221758205-998fd6e9-4b72-4c47-8bc3-3950b321605c.png)
