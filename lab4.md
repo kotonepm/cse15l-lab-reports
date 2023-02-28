@@ -4,7 +4,7 @@
 Log into ieng6
 ![Screenshot (48)](https://user-images.githubusercontent.com/103862450/221757789-e6656427-c1e0-426b-aa22-9b656413d7d2.png)
 Because this was my second time logging on to my ieng6 account, the previous commands were saved from the last time. This means that I can sroll through my previous command with the up key and find my username with my ieng6 account attached.
-<br> **Inputs** ```up``` ```up``` ```ENTER```
+<br> **Inputs** ```<up>``` ```<up>``` ```<ENTER>```
 
 Clone your fork of the repository from your Github account
 ![Screenshot (59)](https://user-images.githubusercontent.com/103862450/221759068-0e26bd1c-df40-4461-81de-6802d0f049ad.png)
