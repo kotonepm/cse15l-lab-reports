@@ -37,6 +37,7 @@ Output:
 <br>
 <br>**Explanation:** By adding a pattern after using the find command, we can also look for certain patterns in a file. For example, I wanted to find all file that ended in ".txt" in non-fiction.
 <br>
+<br>
 Input: ```find written_2/ -name HandRHawaii.txt```
 <br>
 Output:```written_2/travel_guides/berlitz1/HandRHawaii.txt```
