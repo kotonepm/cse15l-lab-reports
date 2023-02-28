@@ -24,9 +24,9 @@ To edit the code we need to open the a text-editor with the nano command
 8. Run the tests, demonstrating that they now succeed
 ![Screenshot (54)](https://user-images.githubusercontent.com/103862450/221758470-79924a9b-3641-4fc0-81b7-35c04cab3a02.png)
 To re-run the tests we also we to re-compile and re-run the tests. Note the the terminal say we need a void main method. This indicates that everythig ran properly.
-<br> **Keys pressed:** ```javac``` ```L <TAB>``` ```T <TAB>``` ```<ENTER>``` ```java``` ```L <TAB>```
+<br> **Keys pressed:** ```javac``` ```L <TAB>``` ```T <TAB>``` ```<ENTER>``` ```java``` ```L <TAB>``` ```<ENTER>```
 
 9. Commit and push the resulting change to your Github account
 ![Screenshot (60)](https://user-images.githubusercontent.com/103862450/221758282-1f656452-c987-41a9-8d86-054a59b54f31.png)
 To push and commit, we need to enter a bunch of git commands. I tried to press the ```<TAB>``` button for the git command, but it did not work.
-<br> **Keys pressed:** ```git add``` ```L <TAB>``` ```git commit - m"updated"``` ```git push main origin```
+<br> **Keys pressed:** ```git add``` ```L <TAB>``` ```<ENTER>``` ```git commit - m"updated"``` ```<ENTER>``` ```git push main origin``` ```<ENTER>```
