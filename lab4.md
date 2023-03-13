@@ -20,6 +20,9 @@ By using the lab method, we can auto fill the file names to aviod any errors. We
 ![Screenshot (51)](https://user-images.githubusercontent.com/103862450/221757985-8fbd6a13-caad-48bd-b1a4-5f5b94795867.png)
 To edit the code we need to open the a text-editor with the nano command
 <br> **Keys pressed:** ```nano``` ```T <TAB>``` ```<ENTER>```
+<br>
+<br> To get to the specific line that the bug was on, I manually pressed arrow keys to get to the bug in the program. I did not use any commands to get to the specfic line to get the bug.
+<br> **Keys pressed:** ```<up>```(42x) ```<right>```(12x)
 
 8. Run the tests, demonstrating that they now succeed
 ![Screenshot (54)](https://user-images.githubusercontent.com/103862450/221758470-79924a9b-3641-4fc0-81b7-35c04cab3a02.png)
