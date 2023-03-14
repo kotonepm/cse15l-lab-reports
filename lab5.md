@@ -22,8 +22,22 @@ The command grep -c will count how many time a certain phrase is repeated in the
 #Use 2: grep -h
 
 The command display the matched lines of a certain phrase
-<br> **Input:** ```grep -m "economic" written_2/non-fiction/OUP/Abernathy/*.txt```
+<br> **Input:** ```grep -h "economic" written_2/non-fiction/OUP/Abernathy/*.txt```
 <br> **Output:** 
 ![Screenshot (64)](https://user-images.githubusercontent.com/103862450/224897135-f58bf0d6-021d-4604-9d7d-e47fca5bb191.png)
 <br> 
-**Explanation:**
+**Explanation:** Because I wanted to see every time the word "ecnomic" appeared in chapter 1 of the Abernathy text, it highlighted every instance that the word "economic" appeared.
+<br> 
+<br> **Input:** ```grep -h -c "economic" written_2/non-fiction/OUP/Abernathy/*.txt``` 
+<br> **Output:** 
+<br> ```5```
+<br> ```1```
+<br> ```10```
+<br> ```2```
+<br> ```0```
+<br> ```4```
+<br> ```0```
+<br> ```1```
+<br> ```1```
+<br> 
+**Explanation:** Another cool thing that we can do with the grep -h command is that we can also combine it with the grep -c command to count the instances of a certain phrase in every file.
