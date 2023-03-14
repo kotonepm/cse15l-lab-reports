@@ -12,10 +12,12 @@ The command grep -c will count how many time a certain phrase is repeated in the
 <br> 
 <br> **Explanation:** Because the phrase Japan is found 50 times in the file, the termainal returns 50.
 <br> 
-<br> **Input:** ```grep -c "New York" written_2/travel_guides/berlitz1/IntroJapan.txt
+<br> **Input:** ```grep -c "New York" written_2/travel_guides/berlitz1/IntroJapan.txt```
 <br> **Output:** ```0```
 <br> 
 <br> **Explanation:** Because the phrase New York is not found in the file, the termainal returns 0.
 <br> 
 ---
+
+#Use 2: grep -
 
