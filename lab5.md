@@ -21,7 +21,7 @@ The command grep -c will count how many time a certain phrase is repeated in the
 
 # Use 2: grep -h
 
-The command display the matched lines of a certain phrase
+The command grep -h display the matched lines of a certain phrase
 <br> **Input:** ```grep -h "economic" written_2/non-fiction/OUP/Abernathy/*.txt```
 <br> **Output:** 
 ![Screenshot (64)](https://user-images.githubusercontent.com/103862450/224897135-f58bf0d6-021d-4604-9d7d-e47fca5bb191.png)
@@ -41,3 +41,26 @@ The command display the matched lines of a certain phrase
 <br> ```1```
 <br> 
 **Explanation:** Another cool thing that we can do with the grep -h command is that we can also combine it with the grep -c command to count the instances of a certain phrase in every file.
+
+---
+
+# Use 3: grep -o
+The command grep -o prints only the matched parts of a matching line with each such part on a separate output line.
+<br> **Input:** ```grep -h "economic" written_2/non-fiction/OUP/Abernathy/*.txt``` 
+<br> **Output:** 
+![Screenshot (65)](https://user-images.githubusercontent.com/103862450/224901160-15cecf56-78e7-48db-89a1-7cf511190b26.png)
+<br>
+**Explanation:** Because we wanted to see the number of times that the phrase "and a" appeared in each chapter the terminal returned every time the phrase was mention in the file. This could be helpful if we wanted to see the number of times we wanted to find a certian string.
+<br> 
+<br> **Input:** ```grep -o -c "and a"  written_2/non-fiction/OUP/Berk/*.txt``` 
+<br> **Output:**
+<br> ```written_2/non-fiction/OUP/Berk/CH4.txt:55```
+<br> ```written_2/non-fiction/OUP/Berk/ch1.txt:38```
+<br> ```written_2/non-fiction/OUP/Berk/ch2.txt:42```
+<br> ```written_2/non-fiction/OUP/Berk/ch7.txt:27```
+<br>
+**Explanation:** Similarly when we can also combine the grep -o command with -c. According to ChatGPT, when we use the grep -o command with the -c option in Bash, it will count the number of occurrences of the pattern that is matched by the grep command.
+
+---
+
+# Use 4: grep ```[some string]```
