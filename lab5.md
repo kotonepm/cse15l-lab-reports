@@ -63,4 +63,21 @@ The command grep -o prints only the matched parts of a matching line with each s
 
 ---
 
-# Use 4: grep ```[some string]```
+# Use 4: grep -n
+This command displays the matched lines and their line numbers.
+<br> **Input:** ```grep -n "thermodynamic systems"  written_2/non-fiction/OUP/Kauffman/*.txt```
+<br> **Output:** 
+![Screenshot (66)](https://user-images.githubusercontent.com/103862450/224906220-2347e58d-2c7a-4f2a-841c-26878621115d.png)
+<br>
+**Explanation:** As we can see, the when using the grep -n command we are able to see every line that has the phrase "thermodynamic systems." What is also helpful is that before the terminal gives us the line that has the phrase, it also gives us the line number that it is on.
+<br>
+<br> **Input:** ```grep -o -n "thermodynamic systems"  written_2/non-fiction/OUP/Kauffman/*.txt```
+<br> **Output:** 
+<br> ```written_2/non-fiction/OUP/Kauffman/ch1.txt:12:thermodynamic systems```
+<br> ```written_2/non-fiction/OUP/Kauffman/ch1.txt:14:thermodynamic systems```
+<br> ```written_2/non-fiction/OUP/Kauffman/ch1.txt:15:thermodynamic systems```
+<br> ```written_2/non-fiction/OUP/Kauffman/ch1.txt:16:thermodynamic systems```
+<br> ``written_2/non-fiction/OUP/Kauffman/ch1.txt:16:thermodynamic systems```
+<br> ``written_2/non-fiction/OUP/Kauffman/ch1.txt:18:thermodynamic systems```
+<br>
+**Explanation:** To follow a common theme in using the grep command, we can combine the grep -n command with the -o command so that we can print out the line numbers of the phrase. This makes it a lot eaiser to tell where the a phrase is in a file.
