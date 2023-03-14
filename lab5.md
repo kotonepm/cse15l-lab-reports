@@ -16,10 +16,10 @@ The command grep -c will count how many time a certain phrase is repeated in the
 <br> **Output:** ```0```
 <br> 
 <br> **Explanation:** Because the phrase New York is not found in the file, the termainal returns 0.
-<br> 
+
 ---
 
-#Use 2: grep -h
+# Use 2: grep -h
 
 The command display the matched lines of a certain phrase
 <br> **Input:** ```grep -h "economic" written_2/non-fiction/OUP/Abernathy/*.txt```
