@@ -19,5 +19,11 @@ The command grep -c will count how many time a certain phrase is repeated in the
 <br> 
 ---
 
-#Use 2: grep -
+#Use 2: grep -h
 
+The command display the matched lines of a certain phrase
+<br> **Input:** ```grep -m "economic" written_2/non-fiction/OUP/Abernathy/*.txt```
+<br> **Output:** 
+![Screenshot (64)](https://user-images.githubusercontent.com/103862450/224897135-f58bf0d6-021d-4604-9d7d-e47fca5bb191.png)
+<br> 
+**Explanation:**
